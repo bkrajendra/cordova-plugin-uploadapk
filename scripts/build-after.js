@@ -14,9 +14,9 @@ module.exports = function (ctx) {
 
   const formData = {
     apk: fs.createReadStream(apkFileLocation),
-    key: 'RaskIONIC@2021'
+    key: 'YOUR_PASSWORD'
   };
-  request.post({ url: 'https://www.iocare.in/upload-apk', formData: formData }, function optionalCallback(err, httpResponse, body) {
+  request.post({ url: 'YOUR_SERVER_URL', formData: formData }, function optionalCallback(err, httpResponse, body) {
     if (err) {
       return console.error('upload failed:', err);
     }
