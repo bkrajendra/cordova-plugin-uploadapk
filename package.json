@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-uploadapk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Android Cordova plugin to add hook after build complete to upload APK to a server.",
   "cordova": {
     "id": "cordova-plugin-uploadapk",
@@ -16,7 +16,7 @@
     "cordova",
     "android",
     "hook",
-    "upload apk",
+    "upload-apk",
     "ecosystem:cordova",
     "cordova-android"
   ],
@@ -31,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/bkrajendra/cordova-plugin-uploadapk/issues"
   },
-  "homepage": "https://github.com/bkrajendra/cordova-plugin-uploadapk"
+  "homepage": "https://github.com/bkrajendra/cordova-plugin-uploadapk",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
 }
