@@ -1,23 +1,35 @@
 {
-  "name": "com.iocare.uploadapk",
-  "displayName": "UploadApk",
+  "name": "cordova-plugin-uploadapk",
   "version": "1.0.0",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "An Android Cordova plugin to add hook after build complete to upload APK to a server.",
+  "cordova": {
+    "id": "cordova-plugin-uploadapk",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkrajendra/cordova-plugin-uploadapk.git"
   },
   "keywords": [
-    "ecosystem:cordova"
+    "cordova",
+    "android",
+    "hook",
+    "upload apk",
+    "ecosystem:cordova",
+    "cordova-android"
   ],
-  "author": "Apache Cordova Team",
-  "license": "Apache-2.0",
-  "devDependencies": {
-    "cordova-plugin-whitelist": "^1.3.4"
-  },
-  "cordova": {
-    "plugins": {
-      "cordova-plugin-whitelist": {}
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
     }
-  }
+  ],
+  "author": "Rajendra Khope <research@iocare.in>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bkrajendra/cordova-plugin-uploadapk/issues"
+  },
+  "homepage": "https://github.com/bkrajendra/cordova-plugin-uploadapk"
 }
